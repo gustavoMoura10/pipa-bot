@@ -9,7 +9,7 @@ const client = new Client();
   client.once("ready", async () => {
     console.log('AQUI')
     const general = client.channels.cache.find((el) => el.name === "general");
-    general.send('SALVE SALVE FAMÍLIA!');
+    general.send('🦁 ♌ LEO');
     console.log("ready!!!!")
   });
   client.on('message',async message =>{
